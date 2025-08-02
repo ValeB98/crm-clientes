@@ -1,0 +1,71 @@
+/* estilos basicos para el cuerpo de la pagina */
+body {
+    font-family: Arial, sans-serif; /* tipo de letra */
+    background: #1e1e2f; /* color de fondo oscuro */
+    color: #fff; /* color de texto blanco */
+    margin: 0; /* quitar margenes predeterminados */
+    padding: 0; /* quitar relleno predeterminado */
+}
+
+/* estilos para los contenedores principales */
+.container, .login-container, .form-container {
+    width: 400px; /* ancho fijo */
+    margin: 50px auto; /* centrar vertical y horizontalmente con margen arriba y abajo */
+    background: #2a2a40; /* color de fondo oscuro para los contenedores */
+    padding: 20px; /* espacio interno */
+    border-radius: 10px; /* bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* sombra suave para dar profundidad */
+    padding-right: 2.5%; /* espacio extra a la derecha para que se vea centrado */
+}
+
+/* alinear texto en los encabezados h2 y h3 al centro */
+h2, h3 {
+    text-align: center;
+}
+
+/* estilos para campos de formulario y botones */
+input, select, textarea, button {
+    width: 100%; /* ancho completo */
+    padding: 10px; /* espacio interno */
+    margin: 10px 0; /* margen arriba y abajo */
+    border: none; /* quitar borde */
+    border-radius: 5px; /* bordes redondeados */
+}
+
+/* estilos para botones y clases btn */
+button, .btn {
+    background: #4CAF50; /* color verde */
+    color: white; /* texto blanco */
+    cursor: pointer; /* cursor tipo mano para indicar clickeable */
+    text-align: center; /* texto centrado */
+    text-decoration: none; /* sin subrayado en enlaces */
+    display: inline-block; /* comportamiento en linea con bloque */
+    width: 105%; /* ancho un poco mayor para cubrir mas espacio para que se vea mas centrado */
+}
+
+/* cambio de color cuando se pasa el cursor por encima de botones */
+button:hover, .btn:hover {
+    background: #45a049; /* verde mas oscuro */
+}
+
+/* estilos para enlaces con clase btn */
+a.btn {
+    display: block; /* bloque para ocupar toda la linea */
+    text-align: center; /* texto centrado */
+    margin: 10px auto; /* margen arriba y abajo, centrado horizontal */
+    padding: 10px; /* espacio interno */
+    border-radius: 5px; /* bordes redondeados */
+    width: 200px; /* ancho fijo */
+    background: #007BFF; /* color azul */
+}
+
+/* cambio de color en enlaces btn al pasar el cursor */
+a.btn:hover {
+    background: #0056b3; /* azul oscuro */
+}
+
+/* estilos para mostrar mensajes de error */
+.error {
+    color: red; /* texto rojo para errores */
+    text-align: center; /* texto centrado */
+}
